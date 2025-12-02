@@ -12,24 +12,26 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
         <div className="flex-shrink-0">
-          <Image src="/img/logo.png" alt="SoomAI Logo" width={120} height={40} />
+          <a href="/">
+            <Image src="/img/logo.png" alt="SoomAI Logo" width={120} height={40} />
+          </a>
         </div>
         <div className="hidden md:block">
           <div className="ml-10 flex items-baseline space-x-4">
             <a
-              href="#hero"
+              href="/"
               className="text-gray-300 hover:text-[#3FB0AE] px-3 py-2 rounded-md text-sm font-medium"
             >
               Home
             </a>
             <a
-              href="#features"
+              href="service"
               className="text-gray-300 hover:text-[#3FB0AE] px-3 py-2 rounded-md text-sm font-medium"
             >
               Service
             </a>
             <a
-              href="#contact"
+              href="contact"
               className="text-gray-300 hover:text-[#3FB0AE] px-3 py-2 rounded-md text-sm font-medium"
             >
               Contact
