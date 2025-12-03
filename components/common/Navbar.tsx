@@ -31,6 +31,12 @@ const Navbar = () => {
               Service
             </a>
             <a
+              href="news"
+              className="text-gray-300 hover:text-[#3FB0AE] px-3 py-2 rounded-md text-sm font-medium"
+            >
+              News
+            </a>
+            <a
               href="contact"
               className="text-gray-300 hover:text-[#3FB0AE] px-3 py-2 rounded-md text-sm font-medium"
             >
