@@ -23,7 +23,7 @@ export async function sendEmail(formData: FormData) {
       to: ["hello@soomai.life"],
       
       // [수정됨] 답장 버튼 누르면 고객 이메일로 바로 연결
-      reply_to: email, 
+      replyTo: email, 
       
       subject: `[SoomAI 문의] ${name}님 (${company})의 메시지`,
       html: `
