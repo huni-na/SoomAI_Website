@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
         <div className="flex-shrink-0">
           <a href="/">
-            <Image src="/img/Logo.png" alt="SoomAI Logo" width={120} height={40} />
+            <Image src="/img/logo/Logo.png" alt="SoomAI Logo" width={120} height={40} />
           </a>
         </div>
         <div className="hidden md:block">

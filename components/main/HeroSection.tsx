@@ -58,12 +58,12 @@ const HeroSection = () => {
         
         {/* Phase 3 & 4 */}
         <motion.div id="logo-image" className="absolute" initial={{ opacity: 0, scale: 0 }} style={{ filter: "drop-shadow(0 0 1rem #3FB0AE)" }}>
-            <Image src="/img/Logo_only.png" alt="SoomAI Logo" width={100} height={100} />
+            <Image src="/img/logo/Logo_only.png" alt="SoomAI Logo" width={100} height={100} />
         </motion.div>
 
         {/* Phase 5 */}
         <motion.div id="soomai-text" className="flex items-center text-center" initial={{ opacity: 0, scale: 1 }}>
-            <Image src="/img/Logo_only.png" alt="SoomAI Logo" width={70} height={70} style={{ filter: "drop-shadow(0 0 1rem #3FB0AE)" }} />
+            <Image src="/img/logo/Logo_only.png" alt="SoomAI Logo" width={70} height={70} style={{ filter: "drop-shadow(0 0 1rem #3FB0AE)" }} />
             <h1 className="text-8xl font-bold text-white ml-4" style={{ textShadow: '0 0 20px #3FB0AE' }}>SoomAI</h1>
         </motion.div>
         <motion.p id="sub-slogan_k" className="text-xl text-gray-300 mt-10" initial={{ y: 50, opacity: 0 }}>AI로, 모든 서비스에 새로운 '숨'을 불어넣다.</motion.p>
