@@ -35,7 +35,6 @@ const Navbar = () => {
             <div className="ml-10 flex items-baseline space-x-8">
               <NavLink href="/" text="Home" />
               <NavLink href="service" text="Service" />
-              <NavLink href="news" text="News" />
               <NavLink href="contact" text="Contact" />
             </div>
           </div>
