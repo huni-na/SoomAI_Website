@@ -175,9 +175,9 @@ const HeroSection = () => {
       <style>{`
         @keyframes fluid-wobble {
             0% { border-radius: 100% 100% 100% 100% / 100% 100% 100% 100%; transform: scale(0.95); }
-            5% { border-radius: 95% 95% 80% 80% / 90% 80% 95% 95% transform: scale(1); }
-            10% { border-radius: 90% 90% 85% 85% / 95% 85% 90% 90% transform: scale(1); }
-            15% { border-radius: 100% 85% 90% 90% / 100% 90% 85% 85% transform: scale(0.95); }
+            5% { border-radius: 95% 95% 80% 80% / 90% 80% 95% 95%; transform: scale(1); }
+            10% { border-radius: 90% 90% 85% 85% / 95% 85% 90% 90%; transform: scale(1); }
+            15% { border-radius: 100% 85% 90% 90% / 100% 90% 85% 85%; transform: scale(0.95); }
             20% { border-radius: 100% 80% 95% 95% / 100% 95% 80% 80%; transform: scale(1); }
             25% { border-radius: 100% 80% 80% 80% / 100% 80% 80% 80%; transform: scale(0.95); } /*Idea 들어가는 타이밍*/
             30% { border-radius: 85% 100% 100% 100% / 85% 100% 100% 100%; transform: scale(1); }
@@ -191,9 +191,9 @@ const HeroSection = () => {
             70% { border-radius: 80% 80% 100% 80% / 80% 80% 100% 80%; transform: scale(0.95); } /*Service 들어가는 타이밍*/
             75% { border-radius: 100% 100% 85% 100% / 100% 100% 85% 100%; transform: scale(1); }
             80% { border-radius: 95% 80% 95% 95% / 80% 95% 80% 80%; transform: scale(1); }
-            85% { border-radius: 90% 85% 90% 90% / 85% 90% 85% 85% transform: scale(0.95); }
-            90% { border-radius: 85% 90% 85% 85% / 90% 85% 90% 90% transform: scale(1); }
-            95% { border-radius: 80% 95% 80% 80% / 95% 80% 95% 95% transform: scale(1); }
+            85% { border-radius: 90% 85% 90% 90% / 85% 90% 85% 85%; transform: scale(0.95); }
+            90% { border-radius: 85% 90% 85% 85% / 90% 85% 90% 90%; transform: scale(1); }
+            95% { border-radius: 80% 95% 80% 80% / 95% 80% 95% 95%; transform: scale(1); }
             100% { border-radius: 100% 100% 100% 100% / 100% 100% 100% 100%; transform: scale(0.95); }
         }
       `}</style>
