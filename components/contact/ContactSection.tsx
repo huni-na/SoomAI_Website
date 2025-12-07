@@ -67,12 +67,11 @@ const ContactSection = () => {
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
               Let's Breathe Life <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3FB0AE] to-[#2a7a79]">
-                Into Your Service.
+                Into Service.
               </span>
             </h1>
             <p className="text-gray-400 text-lg mb-10 max-w-md leading-relaxed">
               AI로 서비스에 새로운 숨을 불어넣을 준비가 되셨나요?
-              SoomAI와 함께 혁신을 시작해보세요.
             </p>
           </motion.div>
 
@@ -123,7 +122,7 @@ const ContactSection = () => {
                   name="message" // [수정됨] name="message"가 있어야 서버에서 읽을 수 있음
                   rows={4}
                   className="w-full bg-transparent border-b border-gray-700 text-white text-lg py-2 focus:outline-none focus:border-[#3FB0AE] transition-colors resize-none placeholder-gray-600"
-                  placeholder="프로젝트에 대해 설명해주세요..."
+                  placeholder="내용을 작성해주세요"
                   required
                 />
                 <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#3FB0AE] transition-all duration-300 group-focus-within:w-full shadow-[0_0_10px_#3FB0AE]" />
