@@ -75,7 +75,6 @@ const Navbar = () => {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t border-gray-700">
               <MobileNavLink href="/" text="Home" />
               <MobileNavLink href="service" text="Service" />
-              <MobileNavLink href="news" text="News" />
               <MobileNavLink href="contact" text="Contact" />
             </div>
           </motion.div>
